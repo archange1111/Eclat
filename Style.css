@@ -42,28 +42,31 @@ nav a {
     border-radius: 5px;
 }
 
-/*=== Acceuil ===*/
+/*=== A propos ===*/
 
 .michel {
-       display: flex;
+    text-align: left;
+    background-image: url(IMG_4977.JPG);
+    display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 40px 20px;
-    background-image: url(IMG_4977.JPG);    
+    
+
 }
 
-.blue {
-     width: 300px;
+.blue{
+    width: 300px;
     margin: 20px;
-    background: black;
     padding: 20px;
     border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(121, 7, 7, 0.1);
     color: white;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    
+    background-color: black;
 }
 img{
     width: 50%;
+    
 }
 
 /*=== Contact ===*/
