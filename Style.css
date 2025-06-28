@@ -13,7 +13,7 @@ header{
     text-align: center;
 }
 
-nav ul {
+.nav-links ul {
     list-style: none;
     padding: 0;
     margin: 10px;
@@ -22,7 +22,7 @@ nav ul {
     gap: 20px;
 }
 
-nav a {
+.nav-links a {
     text-decoration: none;
     font-weight: bold;
 }
@@ -30,6 +30,12 @@ nav a {
 .hero {
     text-align: center;
     background-image: url(IMG_4977.JPG)
+}
+.navbar .menu-burger{
+    position: absolute;
+    top: 50px ;
+    right: 30px;
+    width: 35px;
 }
 
 .hero .btn {
@@ -61,8 +67,8 @@ nav a {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(121, 7, 7, 0.1);
-    color: white;
     background-color: black;
+    color:white;
 }
 img{
     width: 50%;
@@ -79,3 +85,4 @@ img{
 .luzolo li {
    list-style: none;  
 }
+
